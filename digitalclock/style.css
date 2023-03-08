@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    height:100vh;
+    justify-content: center; 
+    background-size:cover;
+    background-image: url("https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfDB8MHx8&auto=format&fit=crop&w=600&q=60" );
+    overflow: hidden;
+}
+#container{
+    margin-bottom:60px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(249, 20, 3);
+    letter-spacing:6px;
+    background-color: rgb(126, 224, 252);
+    padding: 10px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
+}
+.head
+h1{ text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background:rgb(23, 176, 247);
+}
+
+#title{
+    padding: 20px;
+    border-radius:50%;
+    width:200px;
+    height:30px;
+    opacity: 0.8;
+    color:rgb(215, 252, 5);
+    
+}
+#hour{
+    font-family: sans-serif;
+    color:white ;
+    font-size: 100px;
+    padding: 10px;
+}
+#minutes{
+    font-family: sans-serif;
+    color:white ;
+    font-size: 100px;
+    padding: 10px;
+}
+#seconds{
+    font-family: sans-serif;
+    color:white ;
+    font-size: 100px;
+    padding: 10px;
+}
+#heading{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+#meridiem{
+    font-family: sans-serif;
+    color:black;
+    font-size: 24px;
+    padding: 10px;
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height:30px;
+    font-weight:bolder;
+    background:rgb(23, 176, 247);
+    
+}
+.text{
+    font-family: sans-serif;
+    color:black;
+    font-size: 23px;
+    padding: 10px;
+    font-weight: bolder;
+    /*text-transform:uppercase;*/
+}
+.clock{
+    display:flex;
+    margin-bottom:30px;
+}
+.clock div{
+    margin:5px ;
+    position: relative;
+}
+.clock .text{
+    background:rgb(23, 176, 247) ;
+}
+.clock span{
+    width:100px;
+    height:80px;
+    background:rgb(126, 224, 252);
+    opacity: 0.8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
+}
+/*rgb(246, 7, 194)*/
