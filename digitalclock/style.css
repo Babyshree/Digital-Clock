@@ -107,3 +107,17 @@ h1{ text-transform:uppercase;
     text-shadow: 2px 2px 4px rgb(0, 0, 0,0.3);
 }
 /*rgb(246, 7, 194)*/
+
+audio {
+    width: 250px;
+    height: 20px;
+    background-color:rgb(138, 149, 196);
+    /*border: 1px solid #ccc;*/
+    padding: 5px;
+    border-radius: 15px; 
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: rgb(138, 149, 196);
+      }
+      
