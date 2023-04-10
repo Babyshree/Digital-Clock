@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digita Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+
+<body>
+    <div id = "heading">
+        <div class="head">
+            <h1 id="title">Digital Clock</h1>
+        </div>
+
+        <div id="container">greeting</div>
+    </div>
+    <div class="clock">
+        <div>
+            <span id = "hour">00</span>
+            <span class="text">Hours</span>
+        </div>
+
+        <div>
+            <span id = "minutes">00</span>
+            <span class="text">Minutes</span>
+        </div>
+
+        <div>
+            <span id = "seconds">00</span>
+            <span class="text">Seconds</span>
+        </div>
+
+        <div>
+            <span id = "meridiem">AM</span>
+    
+        </div> 
+    </div>
+    <div class="sound">
+    <audio controls autoplay loop>
+        <source src="sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
